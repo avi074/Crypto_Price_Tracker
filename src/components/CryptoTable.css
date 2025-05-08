@@ -1,0 +1,21 @@
+.crypto-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: sans-serif;
+}
+.crypto-table th, .crypto-table td {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  text-align: left;
+}
+.crypto-table .green {
+  color: #16c784;
+}
+.crypto-table .red {
+  color: #ea3943;
+}
+@media screen and (max-width: 768px) {
+  .crypto-table {
+    font-size: 0.8rem;
+  }
+}
